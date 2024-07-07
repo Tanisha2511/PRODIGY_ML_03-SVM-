@@ -7,27 +7,28 @@ This project aims to develop a Support Vector Machine (SVM) model to classify im
 The dataset used in this project is the Cat vs Dog dataset from Kaggle, which consists of 25,000 images of cats and dogs.
 
 ## Project Structure
-Dataset/: contains the dataset files
-train.zip: the training dataset
-test1.zip: the testing dataset
-svm_model.pkl: the trained SVM model
-confusion_matrix.png: the confusion matrix of the model
-classification_report.txt: the classification report of the model
-README.md: this file
+- Dataset/: contains the dataset files
+- train.zip: the training dataset
+- test1.zip: the testing dataset
+- svm_model.pkl: the trained SVM model
+- confusion_matrix.png: the confusion matrix of the model
+- classification_report.txt: the classification report of the model
+- README.md: this file
 
 ## Requirements
-Python 3.10 or higher
-scikit-learn 1.0 or higher
-OpenCV 4.5 or higher
-NumPy 1.23 or higher
-Matplotlib 3.5 or higher
-Seaborn 0.11 or higher
+- Python 3.10 or higher
+- scikit-learn 1.0 or higher
+- OpenCV 4.5 or higher
+- NumPy 1.23 or higher
+- Matplotlib 3.5 or higher
+- Seaborn 0.11 or higher
 
 ## How to Run
-Extract the dataset files from train.zip and test1.zip.
-Run the svm_model.py file to train the SVM model.
-The trained model will be saved as svm_model.pkl.
-Run the evaluation.py file to evaluate the model and generate the confusion matrix and classification report.
+- Extract the dataset files from train.zip and test1.zip.
+- Run the svm_model.py file to train the SVM model.
+- The trained model will be saved as svm_model.pkl.
+- Run the evaluation.py file to evaluate the model and generate the confusion matrix and classification report.
+
 
 ## Results
 The optimized SVM model achieved an accuracy score of approximately 67.62%, indicating its ability to correctly classify images of cats and dogs.
